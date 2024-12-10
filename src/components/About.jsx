@@ -1,10 +1,10 @@
-import AboutImg from '../assets/aboutme.jpg';
+import AboutImg from '../assets/aboutme.png';
 
 export default function About () {
     const config  = {
-        line1: 'Hi, My name is Shanmugapriya Gunaseelan. I am a Full stack web developer. I built beautiful E-Commerce Websites with React.js , Spring Boot, Tailwind CSS + Bootstrap',
-        line2: 'I am proficient in Frontend skills like JSP, React.js, JGoodies, Axios, Tailwind CSS and many more.',
-        line3: 'In backend I know Node.js, Express.js, Oracle DB, and MySQL Workbench'
+        line1: '* Hi, My name is Shanmugapriya Gunaseelan. I am a Full stack web developer. Expertise in several Java/J2EE technologies like Spring, Servlets ,JSP, JSTL, MVC, Struts, JDBC, Hibernate, WebSphere portal, Swing, CSS, JavaScript, XML,HTML5/HTML, Maven, Ant, PL/SQL.',
+        line2: '* Designed & developed several multi-tier Web based, Client-Server applications using Object Oriented Analysis and Design concepts and Service Oriented Architecture (SOA) mostly in cross platform environments.',
+        line3: '* Proficient experience in using the databases such as MySQL, DB2, Oracle 9i/10g/11g, MySQL Workbench.'
     }
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
